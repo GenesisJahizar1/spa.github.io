@@ -1,0 +1,82 @@
+.footer {
+    background: #364468c5;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    &__content {
+      max-width: 1250px;
+      margin: auto;
+      padding: 30px 50px 40px 50px;
+
+      .footer__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        .footer__logo {
+          color: #fff;
+          font-size: 30px;
+        }
+      }
+    }
+    &__links {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .footer__box {
+        width: 15%;
+
+        .footer__title {
+          color: #fff;
+          font-size: 18px;
+          font-weight: 400;
+          margin-bottom: 10px;
+          position: relative;
+          list-style: none;
+        }
+        
+        .footer__item { 
+          margin: 6px 0;
+          list-style: none;
+
+          .footer__a {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: all 0.4s ease
+          }
+        }
+      }
+    }
+    .footer__details {
+      width: 100%;
+      background: #36446873;
+
+      .footer__text {
+        max-width: 1250px;
+        margin: auto;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+
+        .footer__text-span, .footer__a-politi {
+          font-size: 14px;
+          font-weight: 300;
+          color: #fff;
+          opacity: 0.8;
+          text-decoration: none;
+        }
+        .footer__a-politi:hover {
+          opacity: 1;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  

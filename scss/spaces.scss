@@ -1,0 +1,44 @@
+.spaces {
+  background-image: linear-gradient(-225deg, #4b4d4cd8 0%, #424242d3 100%), url(../img/ritual2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo--color {
+  color: #fff;
+}
+
+.space-p {
+  color: #fff;
+}
+
+.spaces-content {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.space {
+  margin-bottom: 20px;
+
+  &__title {
+    // margin-bottom: $espacios;
+    margin-top: 15px;
+    font-size: 25px;
+  }
+
+  .space__icon {
+    font-size: 40px;
+    color: #fff;
+  }
+
+  &__text {
+    text-align: center;
+    width: 250px;
+    text-align: center;
+    font-size: 17px;
+  }
+}

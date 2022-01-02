@@ -1,0 +1,101 @@
+.home {
+  background: #f2f2f1;
+  position: relative;
+
+  .text-home {
+    position: relative;
+    height: 52vw;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 55px;
+    z-index: 99;
+
+    .text {
+      height: 210px;
+      padding: 0px 60px 0 0px;
+
+      &__h3 {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        font-weight: 600;
+        color: $colorletter;
+
+        .text__span {
+          color: $color1;
+          font-weight: 600;
+          font-size: 40px;
+        }
+      }
+
+      &__h2 {
+        margin-bottom: 20px;
+        font-size: 50px;
+        font-weight: 500;
+        color: $colorletter;
+      }
+
+      &__p {
+        color: $colorletter;
+      }
+
+      &__btn {
+        position: relative;
+        overflow: hidden;
+        background: $color1;
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        padding: 15px 0px;
+        width: 210px;
+        height: 50px;
+        margin-top: 35px;
+        text-align: center;
+        transition: .4s ease-in-out all;
+
+        .text__span {
+          position: absolute;
+          z-index: 2;
+          left: 45px;
+         
+        }
+        .text__icon {
+          position: absolute;
+          z-index: 2;
+          right: 45px;
+        }
+      }
+      
+      &__btn::after {
+        content: "";
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: calc(-100% - 80px);
+        border-bottom: 80px solid #61a199;
+        border-right: 80px solid transparent;
+        transition: .4s ease-in-out all;
+      }
+      
+      &__btn:hover::after {
+        left: 0;
+      }
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    border-left: 15px solid $color1;
+    border-right: 2px solid $color1;
+    background-image: linear-gradient(-225deg, #7fc3da59 0%, #6ab5c269 100%), url(../img/fondo.jpg);
+  }
+}
