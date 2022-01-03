@@ -106,7 +106,7 @@ body {
   }
 
   .menu__icono {
-    font-size: 26px;
+    font-size: 35px;
     display: block;
     cursor: pointer;
     color: $color1;
@@ -118,11 +118,8 @@ body {
       .text {
         &__h3 {
           font-size: 15px;
-
-          .text__span {
-            font-size: 30px;
-          }
         }
+
         &__h2 {
           font-size: 35px;
         }
@@ -165,7 +162,12 @@ body {
 
 
 @media (max-width: 500px) {
-
+   .contenedor {
+     padding: 50px 0;
+   }
+   .titulo {
+     font-size: 28px;
+   }
   /*home*/
   .home {
     .text-home {
@@ -173,10 +175,6 @@ body {
          margin-top: 70px;
         &__h3 {
           display: none;
-
-          .text__span {
-            font-size: 30px;
-          }
         }
 
         &__h2 {
@@ -185,8 +183,8 @@ body {
         &__btn {
           width: 180px;
           height: 40px;
-          font-size: 15px;
-          padding: 11px 20px;
+          font-size: 12px;
+          padding: 11px 18px;
 
           .text__span {
             left: 35px;

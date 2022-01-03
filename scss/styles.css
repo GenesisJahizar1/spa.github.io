@@ -197,7 +197,7 @@
           clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   border-left: 15px solid #67baaf;
   border-right: 2px solid #67baaf;
-  background-image: linear-gradient(-225deg, #7fc3da9b 0%, #6ab5c29a 100%), url(../img/fondo.jpg);
+  background-image: linear-gradient(-225deg, #7fc3da59 0%, #6ab5c269 100%), url(../img/fondo.jpg);
 }
 
 /* .work {
@@ -698,7 +698,7 @@ body {
             transform: translate(0, 0);
   }
   .menu__icono {
-    font-size: 26px;
+    font-size: 35px;
     display: block;
     cursor: pointer;
     color: #67baaf;
@@ -706,9 +706,6 @@ body {
   /*home*/
   .home .text-home .text__h3 {
     font-size: 15px;
-  }
-  .home .text-home .text__h3 .text__span {
-    font-size: 30px;
   }
   .home .text-home .text__h2 {
     font-size: 35px;
@@ -744,6 +741,12 @@ body {
 }
 
 @media (max-width: 500px) {
+  .contenedor {
+    padding: 50px 0;
+  }
+  .titulo {
+    font-size: 28px;
+  }
   /*home*/
   .home .text-home .text {
     margin-top: 70px;
@@ -751,17 +754,14 @@ body {
   .home .text-home .text__h3 {
     display: none;
   }
-  .home .text-home .text__h3 .text__span {
-    font-size: 30px;
-  }
   .home .text-home .text__h2 {
     font-size: 25px;
   }
   .home .text-home .text__btn {
     width: 180px;
     height: 40px;
-    font-size: 15px;
-    padding: 11px 20px;
+    font-size: 12px;
+    padding: 11px 18px;
   }
   .home .text-home .text__btn .text__span {
     left: 35px;
