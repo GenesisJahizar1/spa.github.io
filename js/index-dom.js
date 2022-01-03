@@ -6,7 +6,6 @@ const d = document;
 
 d.addEventListener("DOMContentLoaded", (e) => {
     hamburgerMenu(".menu__icono", ".menu__enlaces", ".menu__link");
-    top(".menu", ".menu__enlaces");
     responsiveMedia(
         "gmaps", 
         "(min-width: 1024px)", 
